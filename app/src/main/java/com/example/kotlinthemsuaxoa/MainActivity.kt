@@ -36,6 +36,8 @@ class MainActivity : AppCompatActivity(), Adapter.onClickListener {
                 dataDao.insert(student)
                 adapter.setData(dataDao.getAll())
                 dialogFF.dismiss()
+                dialog.clearFocus()
+                //fjfkfkgfkug
             }
         }
 
